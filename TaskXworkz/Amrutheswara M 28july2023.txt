@@ -1,0 +1,165 @@
+1.method is a block of codes which can be used again and again by calling the method in main method.
+   method overloading:this the scenario where the same method having different parametes.
+   when we declare a method and same method is used to declare other method where we can give different parameters consists of different datatypes.
+    EX:
+       public class School{
+                  public static school(String name){
+                          System.out.println("school name is:"+name);
+			}
+		public static school(String student,int id){
+			System.out.println("name of the student is:"+student);
+			System.out.println("id of the student is:"+id);
+		}
+	  }
+    }
+	public class MainSchool{
+			public static void main(String[] args){
+			School.school("taralabalu");
+			School.school("amruth",004);
+		}
+	}
+
+2.the different kind of variable declared in java programming is instance variable,static variabl,global variable,local variable.
+	INSTANCE VARIABLE:
+		this is the variable which can be changed after initiation,no static key word is used.
+		it is initiated within the class.
+       public class Variable{
+		String name="amruth";
+		int age=23;
+	}
+	
+	STATIC VARIABLE:
+		this is the variable which is initiated using static key world.
+		these variables cannot be changed after initiated.
+		the copy of this variable cannot be done as it is static and it cant be changed after initialized.
+	public class Static{
+		public static void main(String[] args){
+			static name="amruth";
+			static locaction="davangere";
+		}	
+	}
+
+	LOCAL VARIABLE:
+		this is the variable which are initiated within the scope and these variables are only	used within the scope and cant be used after the scope.
+		public class Local{
+			String name="amruth";
+		}
+
+	GLOBAL VARIABLE:
+		this variable are initiated in the starting of the program and can be used any where in the program and it doesnt have any boundary of limits.
+		public class Global{
+			String name="amruth";
+			public static void main(String[] args){
+				System.out.println("name is:"+name);
+		}
+	}
+
+3.Heap memory is pemanent memory where we can store the reference of the data which are been initiated.
+   Stack memory is temporary memory where we can store the data in it after the data been used it will push from the stack.
+
+4.class College{
+	String name;
+	String location;
+	int fee;
+
+      college(){
+		System.out.println("this is default constructor");
+		}
+	college(name){
+		this.name=name;
+		System.out.println("name of the college is:"+name);
+		}
+	college(locaction,fee){
+		this.locaction=location;
+		this.fee=fee;
+		System.out.println("locaction:"+locaction);
+		System.out.println("fee:"+fee);
+		}
+	}
+
+	class Main{
+		public static void main(String[] args){
+			College.college("stj");
+			College.college("davangere",80000);
+			}
+		}
+
+5.instance method overloading is done when the instance class and main method class present in same class.
+		class Shop{
+			public shop(String name){
+				System.out.println("name of the shop is:"+shop);
+			}
+			public shop(String item,int price){
+				System.out.println("item is:"+item);
+				System.out.println("price is:"+price);
+			}
+
+			public static void main(String[] args){
+				shop("jaihind stores");
+				shoop("rice",50);
+				}
+		}
+
+6.Static variable:
+		class Static{
+			static{
+				   String name="xworkz";
+				   String locataion="rajajinagar";
+				   String time="9:00am-6:00pm";
+				}
+		 }
+
+  Static method:
+        class Method{
+			static name(){
+				System.out.println("hi hellow");
+			}
+		}
+	class main{
+			public static void main(String[] args){
+				Method.name();
+			}
+		}
+
+7.
+   class Stores{
+		String name;
+		String location;
+		String items;
+		int price;
+
+	store(){
+			this.store=name;
+			System.out.println("this is the default constructor:");
+		}
+        store(name){
+			this.store=name;
+			System.out.println(name);
+		}
+	store(name,location){
+			this.store=(name,locaction,items);
+			System.out.println(name,location);
+		}
+	store(name,location,items){
+			this.store=(name,locaction,items,price);
+			System.out.println(name,location,items);
+		}
+	store(name,location,items,price){
+			System.out.println(name,location,items,price);
+		}
+	}
+
+	class main{
+		public static void main(String[] args){
+			Stores.store("jaihind","davangere","shampoo",250);
+			}
+		}
+	
+
+				
+		
+		
+
+			
+			
+    
