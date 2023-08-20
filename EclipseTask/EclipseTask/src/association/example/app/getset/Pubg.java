@@ -1,4 +1,4 @@
-package com.example.encapsulation.app;
+package association.example.app.getset;
 
 public class Pubg {
 	 	private String playerName;

@@ -1,6 +1,6 @@
-package com.xworkz.encapsul.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.encapsul.app.RedBus;
+import association.example.app.getset.RedBus;
 
 public class RedBusMain {
 

@@ -1,5 +1,4 @@
-package com.xworkz.encapsul.app;
-
+package association.example.app.getset;
 public class Netflix {
 	private String name;
 	private int year;

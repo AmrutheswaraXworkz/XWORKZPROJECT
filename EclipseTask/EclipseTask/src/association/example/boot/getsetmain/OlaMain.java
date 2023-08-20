@@ -1,6 +1,6 @@
-package com.xworkz.encapsul.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.encapsul.app.Ola;
+import association.example.app.getset.Ola;
 
 public class OlaMain {
 	public static void main(String[] args) {

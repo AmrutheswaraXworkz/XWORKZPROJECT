@@ -1,4 +1,4 @@
-package com.xworkz.assignme24.encapsulation.app.rapido;
+package association.example.app.getset;
 
 public class Rapido {
 	private String headQuaters;

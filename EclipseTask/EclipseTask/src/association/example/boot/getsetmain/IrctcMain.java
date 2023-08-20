@@ -1,6 +1,6 @@
-package com.xworkz.encapsul.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.encapsul.app.Irctc;
+import association.example.app.getset.Irctc;
 
 public class IrctcMain {
 	public static void main(String[] args) {

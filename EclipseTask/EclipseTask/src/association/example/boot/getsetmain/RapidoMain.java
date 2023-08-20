@@ -1,6 +1,6 @@
-package com.xworkz.assignment24.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.assignme24.encapsulation.app.rapido.Rapido;
+import association.example.app.getset.Rapido;
 
 public class RapidoMain {
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.xworkz.assignment24.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.assignme24.encapsulation.app.yatri.Yatri;
+import association.example.app.getset.Yatri;
 
 public class NammaYatriMain {
 	public static void main(String[] args) {

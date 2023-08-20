@@ -1,6 +1,6 @@
-package com.example.encapsulation.boot;
+package association.example.boot.getsetmain;
 
-import com.example.encapsulation.app.Pubg;
+import association.example.app.getset.Pubg;
 
 public class PubgMain {
 

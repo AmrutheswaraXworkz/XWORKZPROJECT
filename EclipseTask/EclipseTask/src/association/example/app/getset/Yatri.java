@@ -1,4 +1,4 @@
-package com.xworkz.assignme24.encapsulation.app.yatri;
+package association.example.app.getset;
 
 public class Yatri {
 	private String founder;

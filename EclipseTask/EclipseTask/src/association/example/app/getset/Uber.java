@@ -1,4 +1,4 @@
-package com.xworkz.assignme24.encapsulation.app.uber;
+package association.example.app.getset;
 
 public class Uber {
 	private String headQuaters;

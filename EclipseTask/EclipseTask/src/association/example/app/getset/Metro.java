@@ -1,4 +1,4 @@
-package com.xworkz.assignme24.encapsulation.app.metro;
+package association.example.app.getset;
 
 public class Metro {
 	private String name;

@@ -1,4 +1,4 @@
-package com.xworkz.encapsul.app;
+package association.example.app.getset;
 
 public class RedBus {
 	private String companyName;

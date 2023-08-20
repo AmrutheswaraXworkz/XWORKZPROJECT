@@ -1,6 +1,6 @@
-package com.xworkz.assignment24.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.assignme24.encapsulation.app.metro.Metro;
+import association.example.app.getset.Metro;
 
 public class MetroMain {
 	public static void main(String[] args) {

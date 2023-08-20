@@ -1,6 +1,6 @@
-package com.xworkz.assignment24.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.assignme24.encapsulation.app.uber.Uber;
+import association.example.app.getset.Uber;
 
 public class UberMain {
 	public static void main(String[] args) {

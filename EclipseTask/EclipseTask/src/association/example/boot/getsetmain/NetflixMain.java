@@ -1,6 +1,6 @@
-package com.xworkz.encapsul.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.encapsul.app.Netflix;
+import association.example.app.getset.Netflix;
 
 public class NetflixMain {
 	public static void main(String[] args) {

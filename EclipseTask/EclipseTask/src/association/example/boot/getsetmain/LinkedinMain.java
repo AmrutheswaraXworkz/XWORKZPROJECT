@@ -1,6 +1,6 @@
-package com.xworkz.encapsul.boot;
+package association.example.boot.getsetmain;
 
-import com.xworkz.encapsul.app.Linkedin;
+import association.example.app.getset.Linkedin;
 
 public class LinkedinMain {
 	
