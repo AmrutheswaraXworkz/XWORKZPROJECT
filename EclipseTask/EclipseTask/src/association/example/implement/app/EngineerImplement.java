@@ -2,33 +2,20 @@ package association.example.implement.app;
 
 public class EngineerImplement implements Engineer {
 
+	public String wearId() {
+
+		return "YES";
+	}
+
 	@Override
 	public void attendence() {
-		System.out.println("invoking attendence in EngineerImplement");
-	}
-
-	@Override
-	public void dress(boolean isGood) {
-		System.out.println("invoking dress in EngineerImplement");
+		System.out.println("Attence method implementaion in EngEngineeringRules.....");
 
 	}
 
 	@Override
-	public void decency(boolean isDecent) {
-		System.out.println("invoking decency in EngineerImplement");
+	public double fee() {
 
+		return 25000;
 	}
-
-	@Override
-	public void marks(int marks) {
-		System.out.println("invoking marks in EngineerImplement");
-
-	}
-
-	@Override
-	public void fees(long fees) {
-		System.out.println("invoking fees in EngineerImplement");
-
-	}
-
 }

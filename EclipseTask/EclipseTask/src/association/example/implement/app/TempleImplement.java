@@ -3,33 +3,21 @@ package association.example.implement.app;
 public class TempleImplement implements Temple  {
 
 	@Override
-	public void shirt() {
-		System.out.println("invoking shirt in TempleImplement");
-		
+	public void NoMobile() {
+		System.out.println("NoMobile method implemention in Class....");
+
 	}
 
 	@Override
-	public void bath() {
-
-		System.out.println("invoking bath in TempleImplement");		
+	public int openTimings(int time) {
+		System.out.println("OpenTimings method implemention in Class....");
+		System.out.println("Open Timings : " + time);
+		return 1;
 	}
 
 	@Override
-	public void queue() {
-
-		System.out.println("invoking queue in TempleImplement");		
-	}
-
-	@Override
-	public void darshana() {
-
-		System.out.println("invoking darshana in TempleImplement");		
-	}
-
-	@Override
-	public void kanike() {
-
-		System.out.println("invoking kanike in TempleImplement");		
+	public void noSmoking() {
+		System.out.println("NoSmoking method implemention in Class....");
 	}
 	
 	
