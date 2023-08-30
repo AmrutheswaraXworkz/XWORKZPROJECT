@@ -1,17 +1,7 @@
 package com.xworkz.association.boot;
 
-import com.xworkz.association.app.Bus;
-import com.xworkz.association.app.Button;
-import com.xworkz.association.app.Charger;
-import com.xworkz.association.app.Laptop;
-import com.xworkz.association.app.LaptopProcessor;
-import com.xworkz.association.app.Mobile;
-import com.xworkz.association.app.Passenger;
-import com.xworkz.association.app.Phant;
-import com.xworkz.association.app.Processor;
-import com.xworkz.association.app.Shirt;
-import com.xworkz.association.app.Trainer;
-import com.xworkz.association.app.Zip;
+import com.xworkz.association.app.*;
+
 
 class MainRunner {
 	public static void main(String[] args) {
