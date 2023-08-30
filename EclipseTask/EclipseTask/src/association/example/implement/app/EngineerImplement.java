@@ -7,13 +7,13 @@ public class EngineerImplement implements Engineer {
 		return "YES";
 	}
 
-	@Override
+//	@Override
 	public void attendence() {
 		System.out.println("Attence method implementaion in EngEngineeringRules.....");
 
 	}
 
-	@Override
+//	@Override
 	public double fee() {
 
 		return 25000;
