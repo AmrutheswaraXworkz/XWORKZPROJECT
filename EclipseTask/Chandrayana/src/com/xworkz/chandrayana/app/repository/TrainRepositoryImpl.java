@@ -22,7 +22,7 @@ public class TrainRepositoryImpl implements TrainRepository {
 		for(int i=0;i<=this.position;i++) {
 			String temp=numbers[i];
 			if(temp!=null &&temp.equals(number)) {
-				System.out.println("can be stored");
+				System.out.println("cannot be stored");
 				return true;
 			}
 		}

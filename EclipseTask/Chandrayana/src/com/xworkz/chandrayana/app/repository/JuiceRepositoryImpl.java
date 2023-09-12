@@ -1,3 +1,6 @@
+
+
+
 package com.xworkz.chandrayana.app.repository;
 
 public class JuiceRepositoryImpl implements JuiceRepository {
@@ -23,7 +26,7 @@ public class JuiceRepositoryImpl implements JuiceRepository {
 		for (int i = 0; i <=this.position; i++) {
 			String temp = juices[i];
 			if (temp != null && temp.equals(juice)) {
-				System.out.println("it can be stored");
+				System.out.println("it cannot be stored");
 				return true;
 			} 		
 			}

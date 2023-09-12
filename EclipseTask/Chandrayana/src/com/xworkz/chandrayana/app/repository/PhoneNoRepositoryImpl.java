@@ -24,7 +24,7 @@ public class PhoneNoRepositoryImpl implements PhoneNoRepository {
 		for(int i=0;i<this.position;i++) {
 			long temp=phones[i];
 			if(temp!=0 && temp==phone) {
-				System.out.println("it can be stored");
+				System.out.println("it cannot be stored");
 				return true;
 			}
 		}

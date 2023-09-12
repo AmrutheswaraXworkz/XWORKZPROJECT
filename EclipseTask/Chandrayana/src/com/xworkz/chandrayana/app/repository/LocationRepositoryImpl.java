@@ -23,7 +23,7 @@ public class LocationRepositoryImpl implements LocationRepository {
 		for(int a=0;a<=this.pos;a++) {
 			String temp=names[a];
 			if(temp!=null && temp.equals(name)) {
-				System.out.println("it can be stored");
+				System.out.println("it cannot be stored");
 				return true;
 			}
 		}

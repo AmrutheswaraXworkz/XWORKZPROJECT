@@ -24,7 +24,7 @@ public class PincodeRepositoryImpl implements PincodeRepository {
 		for(int i=0;i<=this.position;i++) {
 			int temp=pins[i];
 			if(temp!=0 && temp==pin) {
-				System.out.println("it can be stored");
+				System.out.println("it cannot be stored");
 				return true;
 			}
 		}
