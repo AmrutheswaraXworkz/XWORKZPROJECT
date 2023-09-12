@@ -9,4 +9,5 @@ public interface ApplicationRepository {
 	ApplicationDTO isFoundByName(String name);
 	ApplicationDTO isFoundByNameAndDevelopedBy(String name,String developedBy);
 	ApplicationDTO foundAll(int id,String name,String developedBy,String developedAt,String version);
+	ApplicationDTO foundAllByDevelopedBy(String developedBy);
 }

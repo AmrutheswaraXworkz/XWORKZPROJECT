@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	ApplicationDTO applicationDTO1=new ApplicationDTO(2, "Facebook", "america", "mask", "fb2.0");
 	ApplicationDTO applicationDTO2=new ApplicationDTO(3, "Twitter", "bharat", "modi", "X2.0");
 	ApplicationDTO applicationDTO3=new ApplicationDTO(0, null, null, null, null);
-	ApplicationDTO applicationDTO4=new ApplicationDTO(1, "Instagram", "california", "mark", "insta2.0");
+	ApplicationDTO applicationDTO4=new ApplicationDTO(5, "Spotify", "california", "mark", "spot2.0");
 	
 	applicationService.validateAndSave(applicationDTO);
 	applicationService.validateAndSave(applicationDTO1);
@@ -25,5 +25,6 @@ public static void main(String[] args) {
 	applicationRepository.isFoundByName("Instagram");
 	applicationRepository.isFoundByNameAndDevelopedBy("Facebook","america" );
 	applicationRepository.foundAll(3, "Twitter", "bharat", "modi", "X2.0");
+	applicationRepository.foundAllByDevelopedBy("california");
 }
 }

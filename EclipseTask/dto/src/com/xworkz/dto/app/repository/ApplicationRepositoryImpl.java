@@ -70,6 +70,23 @@ public class ApplicationRepositoryImpl implements ApplicationRepository{
 		}
 		return null;
 	}
+
+	@Override
+	public ApplicationDTO foundAllByDevelopedBy(String developedBy) {
+		for(int index=0;index<this.position;index++) {
+		 {
+			ApplicationDTO dto=this.applicationDTO[index];
+			if(dto!=null && dto.getDevelopedBy().equals(developedBy)) {
+				System.out.println(dto+ " found at "+index);
+				
+				
+			}
+			}
+		}
+		return null;
+	}
+	
+	
 	
 	
 	
