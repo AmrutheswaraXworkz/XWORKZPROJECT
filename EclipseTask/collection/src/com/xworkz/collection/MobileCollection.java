@@ -54,7 +54,7 @@ public class MobileCollection {
 	    	   System.out.println("mobile numbers are:"+name);
 	       }
 	        
-	        
+	        System.out.println(mobileNumbers.size());
 	        
 	        }
 	    

@@ -47,5 +47,6 @@ public class StatesCollection {
 	        	System.out.println("states of india are:"+state);
 	        }
 
+	        System.out.println(indianStates.size());
 	    }
 }

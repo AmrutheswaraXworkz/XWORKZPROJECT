@@ -66,6 +66,8 @@ public class LaptopCollection {
 	        	String lappy=laptop.next();
 	        	System.out.println("Laptops are:"+lappy);
 	        }
+	        
+	        System.out.println(laptopCollection.size());
 
 	}
 }

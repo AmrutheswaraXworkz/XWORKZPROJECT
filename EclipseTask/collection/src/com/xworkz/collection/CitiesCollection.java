@@ -36,5 +36,6 @@ public class CitiesCollection {
         	System.out.println("Cities in india are:"+city);
         }
 
+        System.out.println(citiesInIndia.size());
 	}
 }
