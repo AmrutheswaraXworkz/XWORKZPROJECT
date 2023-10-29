@@ -132,4 +132,18 @@ public class CountryDTO {
 				+ ", nationalSport=" + nationalSport + ", primeMinister=" + primeMinister + "]";
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (obj != null) {
+			if (obj instanceof CountryDTO) {
+				CountryDTO countryDTO = (CountryDTO) obj;
+				if (countryDTO.id == id && countryDTO.name.equals(name)) {
+					return true;
+				}
+
+			}
+
+		}
+		return super.equals(obj);
+	}
 }

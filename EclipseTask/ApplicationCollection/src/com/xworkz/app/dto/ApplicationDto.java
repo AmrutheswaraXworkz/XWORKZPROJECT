@@ -1,8 +1,12 @@
 package com.xworkz.app.dto;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class ApplicationDto {
+	
+	
+	private LocalDateTime date;
 	
 	private String name;
 	private String version;
@@ -21,7 +25,7 @@ public class ApplicationDto {
 		this.companyName = companyName;
 		this.createDate = createDate;
 		this.rating = rating;
-		
+		this.date=date;
 	
 		
 	}

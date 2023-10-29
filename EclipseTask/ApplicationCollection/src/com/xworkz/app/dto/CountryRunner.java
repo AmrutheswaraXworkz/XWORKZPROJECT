@@ -2,11 +2,12 @@ package com.xworkz.app.dto;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
+//import java.util.Iterator;
 
 public class CountryRunner {
 
 	public static void main(String[] args) {
+		
 		CountryDTO country1=new CountryDTO(1, "United States", "Washington, D.C.", 331000000, "July 4, 1776", 50, "Christianity", "Bald Eagle", "Bald Eagle", "American Football", "Joseph R. Biden Jr.");
 		CountryDTO country2=new CountryDTO(2, "United Kingdom", "London", 66040000, "July 4, 1776", 4, "Christianity", "Lion", "European Robin", "Cricket", "Boris Johnson");
 		CountryDTO country3=new CountryDTO(3, "India", "New Delhi", 1380004385, "August 15, 1947", 28, "Hinduism", "Bengal Tiger", "Indian Peafowl", "Cricket", "Narendra Modi");
@@ -212,7 +213,6 @@ public class CountryRunner {
 		countries.add(country5);
 		countries.add(country6);
 		countries.add(country7);
-
 		countries.add(country8);
 		countries.add(country9);
 		countries.add(country10);
@@ -401,36 +401,44 @@ public class CountryRunner {
 		countries.add(country193);
 		countries.add(country194);
 		countries.add(country195);
+
 		
-		Iterator<CountryDTO> itr=countries.iterator();
-		while(itr.hasNext()) {
-			CountryDTO country=itr.next();
-			System.out.println(country);
+//		Iterator<CountryDTO> itr=countries.iterator();
+//		while(itr.hasNext()) {
+//			CountryDTO country=itr.next();
+//			System.out.println(country);
+//		}
+		
+		CountryDTO country196=new CountryDTO(196, "Kailasa", "Kailas", 1000000, "August 15, 2020", 10, "Hinduism", "Kailasian Cow", "Crow", "Football", "Nityananda");
+		
+		System.out.println(countries.contains(country196));
+		
+		countries.add(country196);
+		
+		System.out.println(countries.contains(country196));
+		
+		CountryDTO countryTest=new CountryDTO(196, "Kailasa", "Kailas", 1000000, "August 15, 2020", 10, "Hinduism", "Kailasian Cow", "Crow", "Football", "Nityananda");
+		
+		System.out.println(countries.contains(countryTest));
+		
+//		Iterator<CountryDTO> itr=countries.iterator();
+//		int i=0;
+//		while(itr.hasNext()) {
+//			CountryDTO country=itr.next();
+//			if(country.getName().contains("ma")) {
+//				System.out.println(country.getName());
+//				i++;
+//				}
+//			}
+//		System.out.println("count is:"+i);
+	int i=0;
+	for(CountryDTO countryDTO:countries) {
+		if(countryDTO.getName().endsWith("a")) {
+			System.out.println(countryDTO.getName());
+			i++;
 		}
-		
-		System.out.println(countries.size());
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	}
+	System.out.println("Count:"+i);
 	}
 
 }

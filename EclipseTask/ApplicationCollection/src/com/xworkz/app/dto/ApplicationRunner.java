@@ -1,6 +1,8 @@
 package com.xworkz.app.dto;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -9,7 +11,14 @@ public class ApplicationRunner {
 
 	public static void main(String[] args) {
 
-		ApplicationDto dto = new ApplicationDto("Instagram", "Insta2.O", "Instagram", LocalDate.of(2012, 10, 22), 4.5);
+		LocalTime date=LocalTime.of(12, 45, 34);
+		LocalDate date1=LocalDate.of(2023, 10, 22);
+		System.out.println(date1);
+		System.out.println(date);
+		
+		
+		
+		ApplicationDto dto  = new ApplicationDto("Instagram", "Insta2.O", "Instagram", LocalDate.of(2012, 10, 22), 4.5);
 		ApplicationDto dto1 = new ApplicationDto("Facebook", "Face 16.3", "Facebook", LocalDate.of(2011, 6, 22), 4.7);
 		ApplicationDto dto2 = new ApplicationDto("Youtube", "you2023", "Youtube", LocalDate.of(2010, 7, 12), 4.3);
 		ApplicationDto dto3 = new ApplicationDto("Twitter", "X2023", "Twitter", LocalDate.of(2002, 10, 04), 4.2);
