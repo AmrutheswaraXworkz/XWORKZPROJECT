@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
-encoding//src/com/xworkz/app/dto/CountryRunner.java=UTF-8
+encoding//src/com/xworkz/dto/boot/BridgeMain.java=UTF-8
+encoding//src/com/xworkz/dto/boot/CountryRunner.java=UTF-8

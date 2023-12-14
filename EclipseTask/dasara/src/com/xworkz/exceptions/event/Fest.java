@@ -2,6 +2,7 @@ package com.xworkz.exceptions.event;
 
 import java.io.IOException;
 
+import com.xworkz.exception.HolidayException;
 import com.xworkz.exception.HolidayRunTimeException;
 
 public class Fest {
@@ -11,10 +12,10 @@ public class Fest {
 
 	}
 
-	public void deepavali() {
+	public void deepavali() throws HolidayException {
 		System.out.println("Deepavali is on next month");
 		//throw new NullPointerException();
-		throw new HolidayRunTimeException();
+		throw new HolidayException();
 	}
 
 }
