@@ -1,33 +1,32 @@
-package com.xworkz.kanthara.configuration;
+package com.xworkz.saloon.configuration;
 
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import kantharacom.xworkz.kanthara.beans.SaloonConfiguration;
-
-public class ServletWebInit extends AbstractAnnotationConfigDispatcherServletInitializer implements WebMvcConfigurer {
+public class SpringWebInit extends AbstractAnnotationConfigDispatcherServletInitializer implements WebMvcConfigurer {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		System.out.println("invoked getRootConfigClasses");
+		System.out.println("created getRootConfigClasses");
 		return null;
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		System.out.println("invoked getServletConfigClasses");
-		return new Class[] {SpringConfigure.class,SaloonConfiguration.class};
+		System.out.println("created getServletConfigClasses");
+		return new Class[] {BeanConfiguration.class};
 	}
 
 	@Override
 	protected String[] getServletMappings() {
-		System.out.println("invoked getServletMappings");
+		System.out.println("created getServletMappings");
 		return new String[] {"/"};
 	}
-
+	
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
 		configurer.enable();
 	}
+
 }

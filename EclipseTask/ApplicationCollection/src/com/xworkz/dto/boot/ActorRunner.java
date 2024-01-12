@@ -33,6 +33,7 @@ public class ActorRunner {
 		actorTest.add("Dhruva Sarja");
 		System.out.println("Remove:" + actorName.remove(yash));
 		System.out.println("Remove All:" + actorName.removeAll(actorTest));
+		actorTest.forEach(c->System.out.println(c));
 	}
 
 }
