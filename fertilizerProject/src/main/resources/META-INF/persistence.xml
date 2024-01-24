@@ -5,7 +5,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa"></property>
             <property name="javax.persistence.jdbc.user" value="root"></property>
             <property name="javax.persistence.jdbc.password" value="Xworkzodc@123"></property>
-            <property name="hibernate.show_sql" value="true"></property>
+
         </properties>
     </persistence-unit>
 </persistence>
